@@ -67,7 +67,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     const encodedMessage = encodeURIComponent(message);
 
     // Replace with your WhatsApp number (include country code without +)
-    const whatsappNumber = "+3006302137"; // Replace with your WhatsApp number
+    const whatsappNumber = "+923006302137"; // Replace with your WhatsApp number
 
     // Construct the WhatsApp URL
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
@@ -94,7 +94,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
                                            function sendToWhatsApp() {
                                             // Replace with your WhatsApp number
-                                            const phoneNumber = "+3006302137"; 
+                                            const phoneNumber = "+923006302137"; 
                                             
                                             // Get user input values
                                             const name = document.getElementById("name").value;
